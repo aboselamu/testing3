@@ -17,8 +17,8 @@ class BrowserManager:
 
     #oppening the site aljazeera.com
     @task
-    def opening_the_news_Site(self, url):
-
+    def opening_the_news_Site(self):
+        self.url ="https://www.aljazeera.com/"
         # logger.info("Opening the news site.")
         self.browser = Selenium(auto_close = False)
         
@@ -39,8 +39,8 @@ class BrowserManager:
         print("oppend browser at last")
 
     @task
-    def search_the_phrase(self, phrase):
-        self.phrase = phrase
+    def search_the_phrase(self):
+        self.phrase = "Business"
         print("inside search method")
         if(self.browser):
             print("found browser")
