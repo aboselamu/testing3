@@ -3,9 +3,9 @@
 
 tasks:
   Opening the Site:
-    shell: python -m robocorp.tasks run producer.py -t main
+    shell: python -m robocorp.tasks run browser_manager.py -t opening_the_news_Site
   Save To Excel:
-    shell: python -m robocorp.tasks run consumer.py -t save_data_to_Excel
+    shell: python -m robocorp.tasks run browser_manager.py -t opening_the_news_Site
 
 environmentConfigs:
   - environment_windows_amd64_freeze.yaml
