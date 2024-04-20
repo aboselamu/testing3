@@ -16,7 +16,7 @@ class BrowserManager:
         self.browser = None
 
     #oppening the site aljazeera.com
-
+    @task
     def opening_the_news_Site(self, url):
 
         # logger.info("Opening the news site.")
