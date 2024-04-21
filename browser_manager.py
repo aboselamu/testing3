@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 #oppening the site aljazeera.com
-browser =NONE
+browser =None
 @task
 def opening_the_news_Site():
     global browser
