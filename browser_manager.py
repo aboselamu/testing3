@@ -9,6 +9,7 @@ browser =None
 @task
 def opening_the_news_Site():
     global browser
+    browser = browser.page()
     logging.info("Oppening the browser")
     url ="https://www.aljazeera.com/"
     # logger.info("Opening the news site.")
