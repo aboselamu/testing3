@@ -4,7 +4,7 @@
 tasks:
   Opening the Site:
     shell: python -m robocorp.tasks run browser_manager.py -t opening_the_news_Site
-  Save To Excel:
+  searching fra:
     shell: python -m robocorp.tasks run browser_manager.py -t search_the_phrase
 
 environmentConfigs:
